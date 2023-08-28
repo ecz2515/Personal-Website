@@ -1,15 +1,14 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import Image from 'next/image'
-import styles from '../styles/Home.module.css';
-import Biography from './biography';
-import WorkExp from './workexperience'
-import Projects from './projects'
-import React from 'react';
-import {useRef} from 'react';
+import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import Biography from "./biography";
+import WorkExp from "./workexperience";
+import Projects from "./projects";
+import React from "react";
+import { useRef } from "react";
 
 export default function Home() {
-
   return (
     <div className={styles.container}>
       <Head>
@@ -18,9 +17,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-          Hey! My name is Evan Chen
-        </h1>
+        <h1 className={styles.title}>Hey! My name is Evan Chen</h1>
 
         <p className={styles.description}>
           Thanks for visiting my website! Try some of these shortcuts below:
@@ -47,11 +44,10 @@ export default function Home() {
             <p>I play the violin!</p>
           </a>
         </div>
-      
-        <Biography id='biobio'></Biography>
+
+        <Biography id="biobio"></Biography>
         <WorkExp></WorkExp>
         <Projects></Projects>
-
       </main>
 
       <footer>
@@ -60,7 +56,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
         </a>
       </footer>
@@ -116,5 +112,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }

@@ -42,21 +42,19 @@ export default function Projects() {
         </a>
 
         <a className={styles.card}>
-          <div className={styles.companyText}>
-            Note to Self
-          </div>
+          <div className={styles.companyText}>Note to Self</div>
           <div className={styles.companyTextSubtitle}>
             <ul>
-                <li>
-                    Developed an application designed to act as a proactive
-                    tool during emotional crises, offering valuable assistance to young
-                    adults in managing their emotions.
-                </li>
-                <li>
-                    Designed a ”What makes you smile?”
-                    page alongside a comprehensive three-tiered action plan framework,
-                    empowering users to effectively mitigate anxiety.
-                </li>
+              <li>
+                Developed an application designed to act as a proactive tool
+                during emotional crises, offering valuable assistance to young
+                adults in managing their emotions.
+              </li>
+              <li>
+                Designed a ”What makes you smile?” page alongside a
+                comprehensive three-tiered action plan framework, empowering
+                users to effectively mitigate anxiety.
+              </li>
             </ul>
           </div>
         </a>
@@ -65,16 +63,16 @@ export default function Projects() {
           <div className={styles.companyText}>2D Minesweeper Game</div>
           <div className={styles.companyTextSubtitle}>
             <ul>
-                <li>
-                    Composed a minesweeper-style 2D game, using important concepts in
-                    object-oriented programming.
-                </li>
-                <li>
-                    Configured multiple difficulty levels,
-                    win/loss prompts, sound effects, and an ongoing timer. Engineered
-                    MVC design patterns for logical 2D implementation, user interface,
-                    and player control.
-                </li>
+              <li>
+                Composed a minesweeper-style 2D game, using important concepts
+                in object-oriented programming.
+              </li>
+              <li>
+                Configured multiple difficulty levels, win/loss prompts, sound
+                effects, and an ongoing timer. Engineered MVC design patterns
+                for logical 2D implementation, user interface, and player
+                control.
+              </li>
             </ul>
           </div>
         </a>

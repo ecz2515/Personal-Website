@@ -1,6 +1,9 @@
 {
   "private": true,
+  "homepage": "https://ecz2515.github.io/Personal-Website",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"

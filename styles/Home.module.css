@@ -7,6 +7,20 @@
   align-items: center;
 }
 
+.subcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.biotext {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 55%;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -22,6 +36,13 @@
   margin: 0 0 1rem;
   line-height: 1.15;
   font-size: 3.6rem;
+}
+
+.subtitle {
+  margin: 0 0 1rem;
+  line-height: 1.15;
+  font-size: 2.4rem;
+  text-align: left;
 }
 
 .title {
@@ -46,6 +67,16 @@
   flex-wrap: wrap;
 
   max-width: 800px;
+  margin-top: 3rem;
+}
+
+.projectGrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+
+  max-width: 500;
   margin-top: 3rem;
 }
 
@@ -81,6 +112,17 @@
 
 .logo {
   height: 1em;
+}
+
+.companyText{
+  line-height: 1.5;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.companyTextSubtitle{
+  line-height: 1.5;
+  font-size: 1.0rem;
 }
 
 @media (max-width: 600px) {

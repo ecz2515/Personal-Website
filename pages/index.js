@@ -12,7 +12,7 @@ import { useEffect, useState } from 'react';
 export default function Home() {
 
   const [firstRender, setFirstRender] = useState(true);
-
+  
   useEffect(()=>{
     setFirstRender(false);
   },[]);
@@ -31,33 +31,25 @@ export default function Home() {
       <main>
         <h1 className={styles.title}>Hey! My name is Evan Chen</h1>
 
-        <p className={styles.description}>
-          Thanks for visiting my website! Try some of these shortcuts below:
-        </p>
+        <a className={styles.description}>
+          Thanks for visiting my website!
+        </a>
 
         <div className={styles.grid}>
-          <a href="./biography.js" className={styles.card}>
-            <h3>Biography &rarr;</h3>
-            <p>A little bit about me!</p>
+          <a href="#bio" className={styles.buttonCard}>
+            <h3>Biography</h3>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Work Experience &rarr;</h3>
-            <p>My internships...</p>
+          <a href="#workexp" className={styles.buttonCard}>
+            <h3>Work Experience</h3>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Projects &rarr;</h3>
-            <p>Some cool stuff I built.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Music &rarr;</h3>
-            <p>I play the violin!</p>
+          <a href="#proj" className={styles.buttonCard}>
+            <h3>Projects</h3>
           </a>
         </div>
 
-        <Biography id="biobio"></Biography>
+        <Biography></Biography>
         <WorkExp></WorkExp>
         <Projects></Projects>
       </main>

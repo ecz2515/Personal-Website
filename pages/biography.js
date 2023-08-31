@@ -5,7 +5,7 @@ import React, { forwardRef } from "react";
 
 export default function Biography() {
   return (
-    <div className={styles.container}>
+    <div id='bio' className={styles.sectionCard}>
       <h1 className={styles.subtitle}>A little bit about me...</h1>
       <p className={styles.biotext}>
         Hey! I'm Evan, a current junior at Northwestern University pursuing dual

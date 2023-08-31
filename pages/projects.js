@@ -7,7 +7,7 @@ import "react-tabs/style/react-tabs.css";
 
 export default function Projects() {
   return (
-    <div className={styles.container}>
+    <div id='proj' className={styles.sectionCard}>
       <h1 className={styles.subtitle}>Projects</h1>
       <div className={styles.companyTextSubtitle}>
         Here's a short collection of what I've done and what I've been working

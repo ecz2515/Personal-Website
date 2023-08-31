@@ -7,9 +7,9 @@ import "react-tabs/style/react-tabs.css";
 
 export default function WorkExperience() {
   return (
-    <div className={styles.subcontainer}>
+    <div id='workexp' className={styles.sectionCard}>
       <h1 className={styles.subtitle}>Work Experience</h1>
-      <div className={styles.grid}>
+      <div >
         <Tabs>
           <TabList>
             <Tab>Cathay Pacific</Tab>
@@ -22,7 +22,7 @@ export default function WorkExperience() {
             <div className={styles.companyTextSubtitle}>
               June 2023 - August 2023
             </div>
-            <ul>
+            <ul className={styles.bullets}>
               <li>
                 Enhanced ETL data processing pipelines by proficiently designing
                 Pandas-based XML extraction scripts for the data integration
@@ -56,7 +56,7 @@ export default function WorkExperience() {
             <div className={styles.companyTextSubtitle}>
               June 2022 - August 2022
             </div>
-            <ul>
+            <ul className={styles.bullets}>
               <li>
                 Received the Intern of the Year award for outstanding
                 contributions during the summer 2022 cycle.

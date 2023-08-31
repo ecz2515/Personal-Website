@@ -7,8 +7,20 @@ import WorkExp from "./workexperience";
 import Projects from "./projects";
 import React from "react";
 import { useRef } from "react";
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+
+  const [firstRender, setFirstRender] = useState(true);
+
+  useEffect(()=>{
+    setFirstRender(false);
+  },[]);
+
+  if (firstRender) {
+    return <></>
+  }
+
   return (
     <div className={styles.container}>
       <Head>

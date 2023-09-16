@@ -12,6 +12,13 @@
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-tabs": "^6.0.2"
-  }
+    "react-tabs": "^6.0.2",
+    "typescript": "^5.2.2"
+  },
+  "name": "nextjs-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Evan Chen",
+  "license": "ISC",
+  "description": ""
 }

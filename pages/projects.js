@@ -16,7 +16,7 @@ export default function Projects() {
           Github
         </a>{" "}
         or{" "}
-        <a href="https:/google.com" target="_blank">
+        <a href="https://drive.google.com/file/d/1adsSkA7Xj9FH7CYwV-1OtIVKlZZvmqBw/view?usp=sharing" target="_blank">
           Resume
         </a>{" "}
         for more info!

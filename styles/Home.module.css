@@ -5,7 +5,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #D7CDCC;
+  background: url(../public/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .shortcut {
@@ -32,7 +36,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #D7CDCC;
   text-decoration: none;
 }
 
@@ -59,9 +63,21 @@
   text-align: center;
 }
 
+
+.titleCard {
+  margin: 11rem;
+  max-width: 80%;
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+
 .title,
 .description {
   text-align: center;
+  color: #00FFFF;
 }
 
 

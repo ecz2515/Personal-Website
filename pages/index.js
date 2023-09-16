@@ -29,25 +29,32 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>Hey! My name is Evan Chen</h1>
 
-        <a className={styles.description}>
-          Thanks for visiting my website!
-        </a>
-
-        <div className={styles.grid}>
-          <a href="#bio" className={styles.buttonCard}>
-            <h3>Biography</h3>
+        <div className={styles.titleCard}>
+          <h1 className={styles.title}>Hey! My name is Evan Chen</h1>
+          <a className={styles.description}>
+            Thanks for visiting my website!
           </a>
 
-          <a href="#workexp" className={styles.buttonCard}>
-            <h3>Work Experience</h3>
-          </a>
+          <div className={styles.grid}>
+            <a href="#bio" className={styles.buttonCard}>
+              <h3>Biography</h3>
+            </a>
 
-          <a href="#proj" className={styles.buttonCard}>
-            <h3>Projects</h3>
-          </a>
+            <a href="#workexp" className={styles.buttonCard}>
+              <h3>Work Experience</h3>
+            </a>
+
+            <a href="#proj" className={styles.buttonCard}>
+              <h3>Projects</h3>
+            </a>
         </div>
+
+
+        </div>
+
+
+        
 
         <Biography></Biography>
         <WorkExp></WorkExp>
